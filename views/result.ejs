@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grammar Check Result</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .highlight { background-color: #ffcccc; text-decoration: underline red wavy; }
+    ul { color: #444; }
+  </style>
+</head>
+<body>
+  <h2>Checked Content</h2>
+  <div><%- htmlContent %></div>
+
+  <hr>
+  <h3>Grammar Mistakes</h3>
+  <% if (mistakes.length === 0) { %>
+    <p>No mistakes found 🎉</p>
+  <% } else { %>
+    <ul>
+      <% mistakes.forEach(m => { %>
+        <li><b><%= m.error %></b> → <%= m.suggestion %></li>
+      <% }) %>
+    </ul>
+  <% } %>
+</body>
+</html>
