@@ -139,14 +139,4 @@ This uses nodemon to automatically restart the server when files change.
 
 ISC License
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
----
-
-For questions or issues, please create an issue in the repository or contact the development team.
