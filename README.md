@@ -134,20 +134,6 @@ npm run dev
 ```
 This uses nodemon to automatically restart the server when files change.
 
-### File Structure Explanation
-- **Controllers**: Handle request/response logic
-- **Routes**: Define API endpoints and routing
-- **Services**: Contain business logic and external API integration
-- **Views**: EJS templates for rendering HTML pages
-
-## Future Enhancements
-
-- Support for additional file formats (PDF, DOCX)
-- User authentication and file management
-- Custom grammar rules and preferences
-- Real-time grammar checking as you type
-- Export functionality for corrected content
-- Integration with other grammar checking services
 
 ## License
 
